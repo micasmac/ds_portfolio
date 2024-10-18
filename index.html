@@ -1,0 +1,440 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://micasmac.github.io/ds_portfolio/">
+      
+      
+      
+        <link rel="next" href="Data%20Analysis%20Examples/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.41">
+    
+    
+      
+        <title>Michael Adams Data Science Portfolio</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="light-green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-micasmacgithubio" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Michael Adams Data Science Portfolio" class="md-header__button md-logo" aria-label="Michael Adams Data Science Portfolio" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1.5 13.645v-.858h.818c.575 0 1.183-.152 1.19-.668 0-.318-.258-.738-1.166-.738-.502 0-1.183.174-1.183.683H.09c0-1.2 1.216-1.633 2.26-1.633 1.07 0 2.221.509 2.23 1.692a1.17 1.17 0 0 1-.786 1.087c.542.175.924.7.924 1.168 0 1.36-1.305 1.758-2.399 1.758S.008 15.702 0 14.438h1.077c0 .573.787.772 1.249.772.542 0 1.264-.223 1.264-.82 0-.332-.187-.745-1.208-.745zm5.008-1.43v.833c.251-.377.866-.588 1.312-.588 1.143 0 2.342.469 2.342 1.852 0 1.232-1.207 1.843-2.35 1.843-1.142 0-2.367-.611-2.367-1.858v-2.075c0-1.24 1.168-1.818 2.335-1.818 1.232 0 2.326.476 2.326 1.643H9.042c0-.492-.628-.738-1.24-.738-.64-.007-1.288.334-1.288.937zM9.1 14.311c0-.612-.568-.937-1.28-.937-.714 0-1.322.318-1.313.937s.608.908 1.305.908c.672 0 1.288-.297 1.288-.908m5.997-2.812h-3.063v.977h1.101c1.208 0 2.286.485 2.278 1.787 0 1.263-1.078 1.867-2.221 1.867-1.247 0-2.317-.437-2.326-1.74h1.064c0 .613.713.77 1.248.77s1.174-.238 1.174-.897c.009-.628-.628-.81-1.216-.81H10.99v-2.94h4.109zm7.917-3.69a.95.95 0 0 0-.456 1.78l-1.925 4.72a.94.94 0 0 0-.8.082l-2.046-2.342a.943.943 0 0 0-.09-1.27.943.943 0 0 0-1.41 1.241.943.943 0 0 0 1.249.25l2.046 2.342a.95.95 0 0 0-.208.593.95.95 0 0 0 .266.693.95.95 0 0 0 1.57-.32 1 1 0 0 0 .062-.373.94.94 0 0 0-.343-.73l1.95-4.772a1 1 0 0 0 .136.01.95.95 0 0 0 .908-.577.95.95 0 0 0-.214-1.055.95.95 0 0 0-.694-.266Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Michael Adams Data Science Portfolio
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Welcome to micasmac.github.io
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="light-green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="light-green"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Michael Adams Data Science Portfolio" class="md-nav__button md-logo" aria-label="Michael Adams Data Science Portfolio" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1.5 13.645v-.858h.818c.575 0 1.183-.152 1.19-.668 0-.318-.258-.738-1.166-.738-.502 0-1.183.174-1.183.683H.09c0-1.2 1.216-1.633 2.26-1.633 1.07 0 2.221.509 2.23 1.692a1.17 1.17 0 0 1-.786 1.087c.542.175.924.7.924 1.168 0 1.36-1.305 1.758-2.399 1.758S.008 15.702 0 14.438h1.077c0 .573.787.772 1.249.772.542 0 1.264-.223 1.264-.82 0-.332-.187-.745-1.208-.745zm5.008-1.43v.833c.251-.377.866-.588 1.312-.588 1.143 0 2.342.469 2.342 1.852 0 1.232-1.207 1.843-2.35 1.843-1.142 0-2.367-.611-2.367-1.858v-2.075c0-1.24 1.168-1.818 2.335-1.818 1.232 0 2.326.476 2.326 1.643H9.042c0-.492-.628-.738-1.24-.738-.64-.007-1.288.334-1.288.937zM9.1 14.311c0-.612-.568-.937-1.28-.937-.714 0-1.322.318-1.313.937s.608.908 1.305.908c.672 0 1.288-.297 1.288-.908m5.997-2.812h-3.063v.977h1.101c1.208 0 2.286.485 2.278 1.787 0 1.263-1.078 1.867-2.221 1.867-1.247 0-2.317-.437-2.326-1.74h1.064c0 .613.713.77 1.248.77s1.174-.238 1.174-.897c.009-.628-.628-.81-1.216-.81H10.99v-2.94h4.109zm7.917-3.69a.95.95 0 0 0-.456 1.78l-1.925 4.72a.94.94 0 0 0-.8.082l-2.046-2.342a.943.943 0 0 0-.09-1.27.943.943 0 0 0-1.41 1.241.943.943 0 0 0 1.249.25l2.046 2.342a.95.95 0 0 0-.208.593.95.95 0 0 0 .266.693.95.95 0 0 0 1.57-.32 1 1 0 0 0 .062-.373.94.94 0 0 0-.343-.73l1.95-4.772a1 1 0 0 0 .136.01.95.95 0 0 0 .908-.577.95.95 0 0 0-.214-1.055.95.95 0 0 0-.694-.266Z"/></svg>
+
+    </a>
+    Michael Adams Data Science Portfolio
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Welcome to micasmac.github.io
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Welcome to micasmac.github.io
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    <span class="md-ellipsis">
+      About
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Data%20Analysis%20Examples/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Analysis Examples
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="code-examples/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code examples
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="diagram-examples/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagram Examples
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    <span class="md-ellipsis">
+      About
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<div><h1 id="welcome-to-micasmacgithubio">Welcome to micasmac.github.io</h1>
+<h2 id="about">About</h2>
+<p>I like to drink 🍻 after I ride 🚲</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Michael Adams
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://linkedin.com/in/1michael1adams/" target="_blank" rel="noopener" title="linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.06 2.06 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065m1.782 13.019H3.555V9h3.564zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
